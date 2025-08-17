@@ -1,0 +1,103 @@
+.desktop .Download {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop .download-holder {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.desktop .download-text,
+.desktop .download-context,
+.desktop .download-subtitle {
+  text-align: center;
+  margin: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+}
+
+.desktop .download-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.desktop .download-context {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666;
+}
+
+.desktop .download-subtitle {
+  font-size: 32px;
+  line-height: 36px;
+  color: #222;
+  letter-spacing: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop .download-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .desktop .Download {
+    padding: 60px 24px;
+  }
+  .desktop .download-holder {
+    max-width: 500px;
+    gap: 20px;
+  }
+  .desktop .download-context {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .desktop .download-subtitle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop .Download {
+    padding: 50px 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .desktop .download-holder {
+    max-width: 100%;
+    gap: 16px;
+  }
+  .desktop .download-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .desktop .download-context {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .desktop .download-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .desktop .download-img {
+    width: 100%;
+    max-width: 320px;
+  }
+}

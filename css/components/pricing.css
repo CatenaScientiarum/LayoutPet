@@ -1,0 +1,195 @@
+.desktop .Pricing-contents {
+  width: 100%;
+  gap:40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.desktop .Pricing-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.desktop .pricing,
+.desktop .monthly-wrapper,
+.desktop .annually-wrapper,
+.desktop .up-front-wrapper {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
+}
+.desktop .pricing { font-size: 14px; color: #222; }
+
+.desktop .plan-context-h1 {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #222;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 8px;
+}
+.desktop .plan-context-h2 {
+  max-width: 568px;
+  color: #666;
+  margin-top: 0px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.desktop .prices {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.desktop .price {
+  flex: 1 1 calc(33.333% - 16px);
+  max-width: 379px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  gap: 16px;
+}
+.desktop .price-context { max-width: 299px; }
+
+.desktop .price-wrapper1,
+.desktop .price-wrapper2,
+.desktop .price-wrapper3 {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 8px;
+  line-height: 124px;
+}
+.desktop .price-wrapper1 { font-size: 108px; color: #0278ed; }
+.desktop .price-wrapper2 { font-size: 105px; color: #ff5437; }
+.desktop .price-wrapper3 { font-size: 104px; color: #ff9209; }
+
+.desktop .type-wrapper1,
+.desktop .type-wrapper2,
+.desktop .type-wrapper3 {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.desktop .type-wrapper1 { color: #0278ed; }
+.desktop .type-wrapper2 { color: #ff5437; }
+.desktop .type-wrapper3 { color: #ff9209; }
+
+.desktop .buy-now-wrapper1,
+.desktop .buy-now-wrapper2,
+.desktop .buy-now-wrapper3 {
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: auto;
+  align-self: center;
+}
+.desktop .buy-now-wrapper1 { background-color: #0278ed; }
+.desktop .buy-now-wrapper2 { background-color: #ff5437; }
+.desktop .buy-now-wrapper3 { background-color: #ff9209; }
+.desktop .buy-now {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop .prices-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .desktop .Pricing-contents {
+    padding: 60px 24px;
+    gap: 32px;
+  }
+  .desktop .plan-context-h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .desktop .plan-context-h2 {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 100%;
+  }
+  .desktop .prices {
+    gap: 16px;
+  }
+  .desktop .price {
+    flex: 1 1 calc(50% - 12px);
+    max-width: none;
+  }
+  .desktop .price-wrapper1,
+  .desktop .price-wrapper2,
+  .desktop .price-wrapper3 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop .Pricing-contents {
+    padding: 50px 16px;
+    gap: 24px;
+  }
+  .desktop .plan-context-h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .desktop .plan-context-h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .desktop .prices {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .desktop .price {
+    width: 100%;
+    max-width: 300px;
+  }
+  .desktop .price-wrapper1,
+  .desktop .price-wrapper2,
+  .desktop .price-wrapper3 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .desktop .type-wrapper1,
+  .desktop .type-wrapper2,
+  .desktop .type-wrapper3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .desktop .buy-now-wrapper1,
+  .desktop .buy-now-wrapper2,
+  .desktop .buy-now-wrapper3 {
+    width: 100%;
+    max-width: 240px;
+  }
+}

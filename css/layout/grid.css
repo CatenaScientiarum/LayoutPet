@@ -1,0 +1,46 @@
+.u-flex {
+  display: flex;
+}
+
+.u-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-grid {
+  display: grid;
+}
+
+.u-grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.u-stack {
+  display: grid;
+  grid-template-areas: "stack";
+  justify-items: start;
+  align-items: start;
+}
+
+.u-gap-xs { gap: var(--space-xs); }
+.u-gap-sm { gap: var(--space-sm); }
+.u-gap-md { gap: var(--space-md); }
+.u-gap-lg { gap: var(--space-lg); }
+
+.u-full-width { width: 100%; }
+.u-max-width-1440 { max-width: 1440px; }
+.u-max-width-1200 { max-width: 1200px; }
+.u-max-width-600  { max-width: 600px; }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

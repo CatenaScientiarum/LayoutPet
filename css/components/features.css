@@ -1,0 +1,199 @@
+.desktop .features-section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #222;
+  padding: 100px 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop .features-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.desktop .features-header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+.desktop .features-title {
+  font: 400 14px/20px "Poppins-Regular", Helvetica;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.desktop .features-subtitle {
+  font: 400 32px/36px "Poppins-Regular", Helvetica;
+  color: #fff;
+  margin: 0;
+}
+
+.desktop .features-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.desktop .lists,
+.desktop .feature-card-split,
+.desktop .feature-card-focus,
+.desktop .feature-card-calendar,
+.desktop .feature-card-upload,
+.desktop .feature-card-varied {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.desktop .lists,
+.desktop .feature-card-split,
+.desktop .feature-card-focus,
+.desktop .feature-card-calendar,
+.desktop .feature-card-upload,
+.desktop .feature-card-varied {
+  gap: 0;
+}
+
+.desktop .lists .phone-small,
+.desktop .feature-card-split .phone-small,
+.desktop .feature-card-focus .phone-small,
+.desktop .feature-card-calendar .phone-small,
+.desktop .feature-card-upload .phone-small,
+.desktop .feature-card-varied .phone-small {
+  flex: 0 0 auto;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop .lists .phonecontent,
+.desktop .feature-card-split .phonecontent,
+.desktop .feature-card-focus .phonecontent,
+.desktop .feature-card-calendar .phonecontent,
+.desktop .feature-card-upload .phonecontent,
+.desktop .feature-card-varied .phonecontent {
+  position: relative;
+  margin-top: -220px;
+  z-index: 1;
+  background-color: #f2f2f2;
+  box-shadow: 0px 3px 15px #00000033;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.desktop .phone-small {
+  display: grid;
+  grid-template-areas: "stack";
+  justify-items: center;
+  align-items: center;
+}
+
+.desktop .phone-small .phone-color,
+.desktop .phone-small .border-color {
+  grid-area: stack;
+}
+
+.desktop .list-text,
+.desktop .split-text,
+.desktop .focus-text,
+.desktop .calendar-text,
+.desktop .upload-text,
+.desktop .varied-text {
+  font: 400 24px/30px "Poppins-Regular", Helvetica;
+  margin: 0;
+}
+
+.desktop .frame-rectangle,
+.desktop .rectangle-logo {
+  width: 64px;
+  height: 64px;
+  background-color: currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -55px;
+}
+
+.desktop .feature-card-split { color: #e738ce; }
+.desktop .feature-card-focus { color: #b25df8; }
+.desktop .feature-card-calendar { color: #0278ed; }
+.desktop .feature-card-upload { color: #00c6df; }
+.desktop .feature-card-varied { color: #ff9209; }
+.desktop .lists { color: #FF5437; }
+
+.feature-text p {
+  max-width: 286px;
+  margin: 0;
+  font: 400 15px/22.4px "Poppins-Regular", Helvetica;
+  color: #222;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .desktop .features-section {
+    padding: 80px 24px;
+  }
+  .desktop .features-content {
+    gap: 48px;
+  }
+
+  .desktop .lists,
+  .desktop .feature-card-split,
+  .desktop .feature-card-focus,
+  .desktop .feature-card-calendar,
+  .desktop .feature-card-upload,
+  .desktop .feature-card-varied {
+    border-radius: 16px;
+  }
+}
+
+/* Tablets (≤768px) */
+@media (max-width: 768px) {
+  .desktop .features-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 16px;
+  }
+  .desktop .features-content {
+    width: 100%;
+    max-width: 100%;
+    gap: 32px;
+  }
+  .desktop .features-header {
+    gap: 12px;
+  }
+  .desktop .features-title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .desktop .features-subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .desktop .features-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+
+}

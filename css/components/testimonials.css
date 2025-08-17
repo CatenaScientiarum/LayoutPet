@@ -1,0 +1,127 @@
+.desktop .Testimonials {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 80px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop .Testimonials-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto 0;
+  gap: 64px;
+  box-sizing: border-box;
+}
+
+.desktop .Testimonials-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+}
+
+.desktop .testimonial-card {
+  flex: 1 1 calc(33.333% - 16px);
+  max-width: 379px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.desktop .testimonials-text {
+  flex: 1;
+  max-width: 312px;
+  margin: 0;
+  font: 400 16px / 24px "Poppins-Regular", Helvetica;
+  color: #222;
+  letter-spacing: 0;
+}
+
+.desktop .person-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.desktop .testimonial-name,
+.desktop .testimonial-company {
+  margin: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #1b1a1a;
+}
+
+.desktop .testimonial-name {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.desktop .testimonial-company {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.desktop .testimonials-faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  gap: 16px;
+}
+
+.desktop .testimonials,
+.desktop .don-t-take-our-word,
+.desktop .testimonials-faq-context {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  margin: 0;
+}
+
+.desktop .testimonials {
+  font-size: 14px;
+  line-height: 20px;
+  color: #222;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.desktop .don-t-take-our-word {
+  font-size: 32px;
+  line-height: 36px;
+  color: #222;
+}
+
+.desktop .testimonials-faq-context {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666;
+  max-width: 325px;
+}
+
+@media (max-width: 1200px) {
+  .desktop .Testimonials {
+    padding: 60px 24px;
+  }
+  .desktop .Testimonials-context {
+    gap: 48px;
+  }
+  .desktop .Testimonials-content {
+    gap: 16px;
+  }
+  .desktop .testimonial-card {
+    flex: 1 1 calc(50% - 12px);
+    max-width: none;
+  }
+}

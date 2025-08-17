@@ -1,0 +1,28 @@
+# Node.js dependencies (якщо використовуєте npm/yarn)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Скомпільовані файли
+*.css.map
+*.js.map
+
+# Temporary files
+*.tmp
+*.swp
+
+# Env files
+.env
+.env.local

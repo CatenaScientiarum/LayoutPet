@@ -1,0 +1,128 @@
+.desktop .dark-mode-content {
+  width: 100%;
+  background-color: #222;
+  padding: 100px 32px 200px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop .dark-mode-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.desktop .dark-mode-text,
+.desktop .lightmode-label,
+.desktop .dark-mode {
+  font: 400 14px / 20px "Poppins-Regular", Helvetica;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop .dark-mode-text {
+  padding-bottom: 15px;
+}
+
+.desktop .dark-mode-phone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .dark-mode-phone-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.desktop .dark-mode-logos {
+  display: flex;
+  gap: 48px;
+}
+
+.desktop .dark-mode-moon,
+.desktop .lightmode-option {
+  height: 49px;
+}
+
+.desktop .dark-mode-moon {
+  width: 123px;
+}
+
+.desktop .lightmode-option {
+  width: 128px;
+}
+
+.desktop .lightmode-icon,
+.desktop .img-moon {
+  max-width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop .lightmode-label-wrapper {
+  width: 108px;
+  height: 20px;
+}
+
+.desktop .frame-mode {
+  display: block;
+  margin-bottom: -288px;
+}
+
+.desktop .rectangle {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  height: 2px;
+  background-color: #e5e5e5;
+}
+
+.desktop .dark-wrapper {
+  font: 400 32px / 36px "Poppins-Regular", Helvetica;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.desktop .don-t-get-blinded {
+  width: 578px;
+  font: 400 18px / 24px "Poppins-Regular", Helvetica;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .desktop .dark-mode-content {
+    padding: 80px 24px 160px;
+  }
+  .desktop .dark-mode-main {
+    gap: 24px;
+  }
+  .desktop .dark-mode-logos {
+    gap: 32px;
+  }
+  .desktop .don-t-get-blinded {
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+

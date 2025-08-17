@@ -1,0 +1,87 @@
+.desktop .footer {
+  padding: 80px 0;
+}
+
+.desktop .footer-wrapper,
+.desktop .happy-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop .footer-wrapper {
+  gap: 32px;
+}
+
+.desktop .footer-text-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop .footer-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  text-align: center;
+  font: 400 16px/24px "Poppins-Regular", Helvetica;
+  color: #b1b1b1;
+}
+
+.footer-text .powered,
+.footer-text .rights,
+.footer-text .dot {
+  color: #b1b1b1;
+}
+
+.footer-text .webflow,
+.footer-text .licensing {
+  color: #666666;
+}
+
+.desktop .logo-logo,
+.desktop .logo-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.desktop .logo-logo {
+  width: 75px;
+  height: 75px;
+}
+
+.desktop .logo-text {
+  padding-top: 10px;
+}
+
+.desktop .icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: -20px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .desktop .footer {
+    padding: 60px 0;
+  }
+  .desktop .footer-wrapper {
+    gap: 24px;
+  }
+  .desktop .icons {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .desktop .footer {
+    padding: 40px 0;
+  }
+  .desktop .footer-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
